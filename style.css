@@ -1,0 +1,345 @@
+.header {
+    width: 50%;
+    float: left;
+    background: rebeccapurple;
+    height: 50px;
+
+
+}
+
+h4 {
+    color: #fff;
+    margin-left: 20px;
+    font-weight: bolder;
+    font-family: candara;
+    font-size: 18px;
+
+}
+
+li {
+    font-size: 18px;
+    font-family: candara;
+    display: inline;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li:hover {
+    color: aqua;
+}
+
+.home-page {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rebeccapurple), url("./salon.jpg");
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.home-page {
+    text-align: center;
+    padding-top: 180px;
+    color: #fff;
+}
+
+.home-page h1 {
+    font-size: 90px;
+    font-family: roboto;
+}
+
+.home-page p {
+    font-size: 30px;
+    font-family: candara;
+
+}
+
+button {
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 15px;
+    border: none;
+
+
+}
+
+button:hover {
+    background-color: rebeccapurple;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.about-us {
+
+    font-family: candara;
+    padding: 30px;
+}
+
+.title-text {
+    text-align: center;
+}
+
+.title-text h2 {
+    color: rebeccapurple;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+    font-family: candara;
+
+}
+
+.title-text h2::after {
+    content: '';
+    width: 60px;
+    height: 40px;
+    background: linear-gradient(rebeccapurple, #fff);
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+.title-text h1 {
+    padding: 0;
+    font-size: 40px;
+    font-family: candara;
+
+}
+
+.features-box {
+    width: 80%;
+
+}
+
+.features {
+    width: 40%;
+    float: left;
+    align-items: center;
+    text-align: center;
+}
+
+.features img {
+    width: 250px;
+    min-height: 350px;
+    margin-left: 300px;
+    border-radius: 15px;
+    background-color: linear-gradient(rebeccapurple, #fff);
+}
+
+.description {
+
+    font-family: roboto;
+    font-family: candara;
+    font-size: 20px;
+    font-weight: bold;
+    color: rebeccapurple;
+
+}
+
+.desc {
+    font-family: candara;
+    text-align: initial;
+}
+
+.services {
+    margin-top: 450px;
+    background-color: #efefef;
+    background-size: cover;
+    height: 120vh;
+    padding-top: 25px;
+}
+
+table {
+    border: 1px solid;
+    width: 850px;
+    height: auto;
+    border-collapse: collapse;
+    margin-left: 185px;
+}
+
+th {
+    border: 2px solid;
+}
+
+
+td {
+    border: 1px solid black;
+    padding: 10px 3px 1px 1px;
+    text-align: left;
+    font-family: candara;
+}
+
+.money {
+    background-color: rgb(219, 193, 245);
+
+}
+
+.contact {
+    padding-top: 25px;
+    background-size: cover;
+    height: 110vh;
+    max-width: 100%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(219, 193, 245);
+}
+
+form label {
+    display: block;
+    font-size: 1.2rem;
+    font-family: candara;
+    margin-left: 250px;
+}
+
+form input,
+form textarea {
+    width: 60%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    margin-left: 250px;
+
+}
+
+form textarea {
+    height: 120px;
+}
+
+form input[type="submit"] {
+    background-color: rebeccapurple;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+
+
+}
+
+form input[type="submit"]:hover {
+    background-color: white;
+    color: rebeccapurple;
+}
+
+.staffs {
+    padding-top: 25px;
+
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .team-member {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+  }
+
+.team-member img {
+    width: 150px;
+    
+    margin-right: 20px;
+    border-radius: 75px;
+    height: 150px;
+  }
+
+  .team-member h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    font-family: roboto;
+  }
+
+  .team-member p {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+
+.names {
+    text-align: center;
+    font-family: roboto;
+    font-size: 18px;
+}
+.post {
+    text-align: center;
+    font-size: 16px;
+    font-family: candara;
+}
+
+hr {
+    width: 30px;
+    color: rebeccapurple;
+}
+
+.footer {
+    background-color: #efefef;
+    background-size: cover;
+    height: 65vh;
+}
+
+  .footer-contact {
+    width: 33%;
+    float: left;
+    
+  }
+  
+.footer-contact h5 {
+    font-size: 20px;
+    font-family: roboto;
+    text-decoration: underline;
+}
+
+.footer-contact p {
+    font-size: 16px;
+    font-family: candara;
+}
+
+.hours {
+    text-align: center;
+}
+
+.icons h5 {
+    font-size: 20px;
+    font-family: roboto;
+    text-decoration: underline;
+}
+
+.icons a {
+    
+    color: rebeccapurple;
+}
+ .icons a img {
+    width: 20px;
+    height: 20px;
+ }
+ .copyright{
+    text-align: center;
+    font-family: candara;
+}
+
+
+.facilities img {
+    width: 200px;
+    height: 350px;
+}
